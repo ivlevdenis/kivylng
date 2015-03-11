@@ -54,9 +54,9 @@
 		{"trigger": "StackLayout\tKivy", "contents": "StackLayout:"},
 
 		// Canvas
-		{"trigger": "canvas\tKivy", "contents": "canvas:"},
-		{"trigger": "canvas.after\tKivy", "contents": "canvas:"},
-		{"trigger": "canvas.before\tKivy", "contents": "canvas:"},
+		{"trigger": "canvas\tKivy", "contents": "canvas:\n\t"},
+		{"trigger": "canvas.after\tKivy", "contents": "canvas.after:\n\t"},
+		{"trigger": "canvas.before\tKivy", "contents": "canvas.before:\n\t"},
 
 		// Properties
 		{"trigger": "active", "contents": "active: ${1:False}"},
