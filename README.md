@@ -1,8 +1,24 @@
 ##Kivy language syntax definition for Sublime Text
 
 
-### Instalation Linux:
+### Instalation 
+
+#### On Linux:
 
 ```bash
-git clone https://github.com/ivlevdenis/kivylng.git ~/.config/sublime-text-3/Packages/kivylng
+cd ~/.config/sublime-text-3/Packages/
+git clone https://github.com/ivlevdenis/kivylng.git
+```
+
+#### On Windows:
+
+```bash
+cd %APPDATA%/Sublime Text 3/Packages/
+git clone https://github.com/ivlevdenis/kivylng.git
+```
+#### On Mac:
+
+```bash
+cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
+git clone https://github.com/ivlevdenis/kivylng.git
 ```
