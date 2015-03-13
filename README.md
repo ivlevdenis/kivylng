@@ -4,6 +4,9 @@
 <!--
 [![Build Status](https://img.shields.io/travis/ivlevdenis/kivylng.svg?style=flat-square)](https://travis-ci.org/ivlevdenis/kivylng)
 -->
+### Build system/Preview
+Kivy preview works only with standard of widgets!
+
 ### Instalation 
 
 #### On Linux:
