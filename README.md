@@ -1,6 +1,9 @@
 ##Kivy language syntax definition for Sublime Text
-
-
+[![GitHub tag](https://img.shields.io/github/tag/ivlevdenis/kivylng.svg?style=flat-square)](https://github.com/ivlevdenis/kivylng/tags)
+[![Status](https://img.shields.io/badge/state-WIP-orange.svg?style=flat-square)]()
+<!--
+[![Build Status](https://img.shields.io/travis/ivlevdenis/kivylng.svg?style=flat-square)](https://travis-ci.org/ivlevdenis/kivylng)
+-->
 ### Instalation 
 
 #### On Linux:
