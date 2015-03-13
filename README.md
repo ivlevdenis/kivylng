@@ -9,6 +9,12 @@ Kivy preview works only with standard of widgets!
 
 ### Instalation 
 
+#### With The Package Control Plugin
+
+Press `Ctrl + Shift + P` to open the Command Palette type `pack install`, search for `Kivy Language` and press enter.
+
+Use `Cmd` instead of `Ctrl` on Mac OS X.
+
 #### On Linux:
 
 ```bash
