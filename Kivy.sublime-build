@@ -1,5 +1,5 @@
 {
-    "cmd": ["python", "-u", "$packages/kivylng/preview/kv.preview.py", "$file", "$folder"],
+    "cmd": ["python", "-u", "$packages/Kivy Language/preview/kv.preview.py", "$file", "$folder"],
     "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
     "selector": "source.kv",
 }

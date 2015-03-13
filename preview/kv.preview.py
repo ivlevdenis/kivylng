@@ -47,7 +47,11 @@ class PreviewApp(App):
 if __name__ == '__main__':
     from importlib import import_module
     sys.path.append(sys.argv[2])
+    file_path =  os.path.dirname(os.path.realpath(sys.argv[1]))
+    os.chdir(file_path)
     sys.path.append(os.getcwd())
+    sys.path.append(file_path)
+
     if os.path.isfile(os.path.join(sys.argv[2], 'main.py')) or \
             os.path.isfile(os.path.join(os.getcwd(), 'main.py')):
         import_module('main')
