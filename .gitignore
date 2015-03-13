@@ -1,7 +1,7 @@
 ###Other###
 kv.sublime-settings
 test.kv
-
+*.old
 
 ###Python###
 
