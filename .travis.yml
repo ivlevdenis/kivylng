@@ -6,6 +6,7 @@ before_script:
   - sudo add-apt-repository ppa:kivy-team/kivy -y
   - sudo apt-get update -q
   - sudo apt-get install python-kivy
+  - sudo apt-get install python-nose
 
 #command to run tests
 script: nosetests
