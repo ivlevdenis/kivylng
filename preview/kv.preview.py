@@ -5,7 +5,7 @@ import sys
 
 try:
     import kivy
-except Exception as e:
+except ImportError as e:
     sys.exit(1)
 
 
@@ -45,5 +45,13 @@ class PreviewApp(App):
 
 
 if __name__ == '__main__':
+    from importlib import import_module
+    sys.path.append(sys.argv[2])
+    sys.path.append(os.getcwd())
+    if os.path.isfile(os.path.join(sys.argv[2], 'main.py')) or \
+            os.path.isfile(os.path.join(os.getcwd(), 'main.py')):
+        import_module('main')
+    else:
+        sys.exit(1)
     app = PreviewApp(sys.argv[1])
     app.run()
