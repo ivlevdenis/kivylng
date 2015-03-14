@@ -1,0 +1,10 @@
+Changes in v0.1.4
+================
+Added FileChooser* classes and properties
+Added DropDown properties
+Added ColorPicker properties and ColorWheel widget
+Added CodeInput properties
+Added CheckBox properties
+Added Carousel and Camera properties
+Added Bubble properties and two padding styles
+Added help text to some triggers
