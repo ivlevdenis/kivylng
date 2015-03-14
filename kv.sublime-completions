@@ -26,6 +26,7 @@
 		{"trigger": "CheckBox\tKivy", "contents": "CheckBox:\n\t"},
 		{"trigger": "CodeInput\tKivy", "contents": "CodeInput:\n\t"},
 		{"trigger": "ColorPicker\tKivy", "contents": "ColorPicker:\n\t"},
+		{"trigger": "ColorWheel\tKivy", "contents": "ColorWheel:\n\t"},
 		{"trigger": "ContextualActionView\tKivy", "contents": "ContextualActionView:\n\t"},
 		{"trigger": "DropDown\tKivy", "contents": "DropDown:\n\t"},
 		{"trigger": "FileChooser\tKivy", "contents": "FileChooser:\n\t"},
@@ -164,6 +165,7 @@
 		{"trigger": "group", "contents": "group: ${1:None}"},
 		{"trigger": "halign", "contents": "halign: ${1:left}"},
 		{"trigger": "height", "contents": "height: ${1:100}"},
+		{"trigger": "hex_color\tColorPicker", "contents": "hex_color: ${1:#ffffff}"},
 		{"trigger": "hsv", "contents": "hsv: (${1:1}, ${2:1}, ${3:1})"},
 		{"trigger": "id", "contents": "id: ${1:widget_id}"},
 		{"trigger": "icon", "contents": "icon: '$1'"},
@@ -228,6 +230,7 @@
 		{"trigger": "top", "contents": "top: ${1:None}"},
 		{"trigger": "valign", "contents": "valign: ${1:bottom}"},
 		{"trigger": "value", "contents": "value: ${1:0}"},
+		{"trigger": "wheel\tColorPicker", "contents": "wheel: ${1:None}"},
 		{"trigger": "width", "contents": "width: ${1:100}"},
 		{"trigger": "with_previous", "contents": "with_previous: ${1:True}"},
 
