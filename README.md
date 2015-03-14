@@ -5,7 +5,7 @@
 [![Build Status](https://img.shields.io/travis/ivlevdenis/kivylng.svg?style=flat-square)](https://travis-ci.org/ivlevdenis/kivylng)
 -->
 ### Build system/Preview
-Kivy preview works only with standard of widgets!
+Open kv file, press `Ctrl + B`. After change and save kv file, preview window automatically update widgets.
 
 ### Instalation 
 
@@ -19,18 +19,18 @@ Use `Cmd` instead of `Ctrl` on Mac OS X.
 
 ```bash
 cd ~/.config/sublime-text-3/Packages/
-git clone https://github.com/ivlevdenis/kivylng.git
+git clone https://github.com/ivlevdenis/kivylng.git "Kivy Language"
 ```
 
 #### On Windows:
 
 ```bash
 cd %APPDATA%/Sublime Text 3/Packages/
-git clone https://github.com/ivlevdenis/kivylng.git
+git clone https://github.com/ivlevdenis/kivylng.git "Kivy Language"
 ```
 #### On Mac:
 
 ```bash
 cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
-git clone https://github.com/ivlevdenis/kivylng.git
+git clone https://github.com/ivlevdenis/kivylng.git "Kivy Language"
 ```
