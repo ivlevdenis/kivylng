@@ -1,0 +1,13 @@
+Kivy language syntax definition for Sublime Text
+================================================
+
+Build system/Preview
+====================
+
+Open kv file, press `Ctrl + B`. After change and save kv file preview window automatically update widgets.
+
+
+Syntax
+======
+
+Press `Ctrl + Shift + P`, type `Kivy Syntax`, press `Enter`.
