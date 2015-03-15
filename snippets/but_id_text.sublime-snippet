@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+Button:
+	id: $1
+	text: '$1'
+]]></content>
+	<tabTrigger>but_id_text</tabTrigger>
+	<scope>source.kv</scope>
+</snippet>

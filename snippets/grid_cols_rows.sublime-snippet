@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+GridLayout:
+	cols: $1
+	rows: $2
+]]></content>
+	<tabTrigger>grid_cols_rows</tabTrigger>
+	<scope>source.kv</scope>
+</snippet>

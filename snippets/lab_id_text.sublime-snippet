@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+Label:
+	id: $1
+	text: '$2'
+]]></content>
+	<tabTrigger>lab_id_text</tabTrigger>
+	<scope>source.kv</scope>
+</snippet>
