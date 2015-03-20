@@ -290,6 +290,7 @@
 		{"trigger": "top", "contents": "top: ${1:None}"},
 		{"trigger": "valign", "contents": "valign: ${1:bottom}"},
 		{"trigger": "value", "contents": "value: ${1:0}"},
+		{"trigger": "value_normalized", "contents": "value_normalized: ${1:0}"},
 		{"trigger": "view_list\tFileChooser", "contents": "view_list: ${1:None}"},
 		{"trigger": "view_mode\tFileChooser", "contents": "view_mode: ${1:None}"},
 		{"trigger": "wheel\tColorPicker", "contents": "wheel: ${1:None}"},
