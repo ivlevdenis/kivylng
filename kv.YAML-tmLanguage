@@ -6,81 +6,15 @@ fileTypes: [kv]
 uuid: d7b6c18f-afd3-4030-8489-b5a3f3b6d4a4
 
 patterns:
-- name: string.kv
-  match: (["'].*["'])
-
-- name: constant.other.allcaps.kv
-  match: \b([A-Z_][A-Z0-9_]*)\b(?![\.\(])
-
-- name: constant.numeric.integer.long.hexadecimal.kv
-  match: \b(?i:(0x\h*)L)
-
-- name: constant.numeric.integer.hexadecimal.kv
-  match: \b(?i:(0x\h*))
-
-- name: constant.numeric.integer.long.binary.kv
-  match: \b(?i:(0b[01]*)L)
-
-- name: constant.numeric.integer.binary.kv
-  match: \b(?i:(0b[01]*))
-
-- name: constant.numeric.integer.long.octal.kv
-  match: \b(?i:(0[o]?[0-7]+)L)
-
-- name: constant.numeric.integer.octal.kv
-  match: \b(?i:(0[o]?[0-7]+))
-
-- name: constant.numeric.complex.kv
-  match: \b(?i:(((\d+(\.(?=[^a-zA-Z_])\d*)?|(?<=[^0-9a-zA-Z_])\.\d+)(e[\-\+]?\d+)?))J)
-
-- name: constant.numeric.float.kv
-  match: \b(?i:(\d+\.\d*(e[\-\+]?\d+)?))(?=[^a-zA-Z_])
-
-- name: constant.numeric.float.kv
-  match: (?<=[^0-9a-zA-Z_])(?i:(\.\d+(e[\-\+]?\d+)?))
-
-- name: constant.numeric.float.kv
-  match: \b(?i:(\d+e[\-\+]?\d+))
-
-- name: constant.numeric.integer.long.decimal.kv
-  match: \b(?i:([1-9]+[0-9]*|0)L)
-
-- name: constant.numeric.integer.decimal.kv
-  match: \b([1-9]+[0-9]*|0)
-
-- name: constant.language.kv
-  match: \b(None|True|False|Ellipsis|NotImplemented)\b
-
-- name: comment.line.number-sign.kv
-  match: (#).*$\n?
-  captures:
-    '1': {name: punctuation.definition.comment.kv}
-
 - name: keyword.control.import.kv
   match: \b(?:(import|from|as))\b
 
-- comment: keyword operators that evaluate to True or False
-  name: keyword.operator.logical.kv
-  match: \b(and|in|is|not|or)\b
-
-- comment: keywords that delimit flow blocks or alter flow from within a block
-  name: keyword.control.flow.kv
-  match: \b(elif|else|except|finally|for|if|try|while|with|break|continue|pass|raise|return|yield)\b
-
-- name: keyword.operator.comparison.kv
-  match: <\=|>\=|\=\=|<|>|\!\=
-
-- name: keyword.operator.assignment.augmented.kv
-  match: \+\=|-\=|\*\=|/\=|//\=|%\=|&\=|\|\=|\^\=|>>\=|<<\=|\*\*\=
-
-- name: keyword.operator.arithmetic.kv
-  match: \+|\-|\*|\*\*|/|//|%|<<|>>|&|\||\^|~
 
 - match: \b(<.*>)\b
   captures:
     '1': {name: storage.type.class.kv}
 
-- include: '#builtin_types_python'
+# - include: '#builtin_types_python'
 
 - include: '#builtin_types_widgets_ui'
 - include: '#builtin_types_widgets_layouts'
@@ -88,10 +22,12 @@ patterns:
 - include: '#builtin_attributes'
 - include: '#builtin_properties'
 
+- include: 'source.python'
+
 repository:
-  builtin_types_python:
-    name: support.type.kv
-    match: (?<!\.)\b(ascii|basestring|bin|bool|buffer|bytearray|bytes|classmethod|complex|dict|file|float|frozenset|hex|int|list|long|object|oct|property|reversed|set|slice|staticmethod|str|super|tuple|type|unicode|xrange)\b
+  # builtin_types_python:
+  #   name: support.type.kv
+  #   match: (?<!\.)\b(ascii|basestring|bin|bool|buffer|bytearray|bytes|classmethod|complex|dict|file|float|frozenset|hex|int|list|long|object|oct|property|reversed|set|slice|staticmethod|str|super|tuple|type|unicode|xrange)\b
   builtin_types_widgets_ui:
     name: support.type.kv
     match: (?<!\.)\b(Accordion|BorderImage|Bubble|BubbleButton|Button|Camera|Carousel|CheckBox|CodeInput|ColorPicker|Dropdown|FileChooser|Image|Label|ListView|Modalview|Popup|ProgressBar|Rst|RstDocument|Scatter|Slider|TextInput|Togglebutton|ScrollView|SelectableView|Slider|Spinner|Splitter|StencilView|Switch|TabbedPanel|TextInput|ToggleButton|TreeView|Video|VideoPlayer|VKeyboard)\b

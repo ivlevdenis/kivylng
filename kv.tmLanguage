@@ -12,147 +12,9 @@
 	<array>
 		<dict>
 			<key>match</key>
-			<string>(["'].*["'])</string>
-			<key>name</key>
-			<string>string.kv</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>\b([A-Z_][A-Z0-9_]*)\b(?![\.\(])</string>
-			<key>name</key>
-			<string>constant.other.allcaps.kv</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>\b(?i:(0x\h*)L)</string>
-			<key>name</key>
-			<string>constant.numeric.integer.long.hexadecimal.kv</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>\b(?i:(0x\h*))</string>
-			<key>name</key>
-			<string>constant.numeric.integer.hexadecimal.kv</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>\b(?i:(0b[01]*)L)</string>
-			<key>name</key>
-			<string>constant.numeric.integer.long.binary.kv</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>\b(?i:(0b[01]*))</string>
-			<key>name</key>
-			<string>constant.numeric.integer.binary.kv</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>\b(?i:(0[o]?[0-7]+)L)</string>
-			<key>name</key>
-			<string>constant.numeric.integer.long.octal.kv</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>\b(?i:(0[o]?[0-7]+))</string>
-			<key>name</key>
-			<string>constant.numeric.integer.octal.kv</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>\b(?i:(((\d+(\.(?=[^a-zA-Z_])\d*)?|(?&lt;=[^0-9a-zA-Z_])\.\d+)(e[\-\+]?\d+)?))J)</string>
-			<key>name</key>
-			<string>constant.numeric.complex.kv</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>\b(?i:(\d+\.\d*(e[\-\+]?\d+)?))(?=[^a-zA-Z_])</string>
-			<key>name</key>
-			<string>constant.numeric.float.kv</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>(?&lt;=[^0-9a-zA-Z_])(?i:(\.\d+(e[\-\+]?\d+)?))</string>
-			<key>name</key>
-			<string>constant.numeric.float.kv</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>\b(?i:(\d+e[\-\+]?\d+))</string>
-			<key>name</key>
-			<string>constant.numeric.float.kv</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>\b(?i:([1-9]+[0-9]*|0)L)</string>
-			<key>name</key>
-			<string>constant.numeric.integer.long.decimal.kv</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>\b([1-9]+[0-9]*|0)</string>
-			<key>name</key>
-			<string>constant.numeric.integer.decimal.kv</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>\b(None|True|False|Ellipsis|NotImplemented)\b</string>
-			<key>name</key>
-			<string>constant.language.kv</string>
-		</dict>
-		<dict>
-			<key>captures</key>
-			<dict>
-				<key>1</key>
-				<dict>
-					<key>name</key>
-					<string>punctuation.definition.comment.kv</string>
-				</dict>
-			</dict>
-			<key>match</key>
-			<string>(#).*$\n?</string>
-			<key>name</key>
-			<string>comment.line.number-sign.kv</string>
-		</dict>
-		<dict>
-			<key>match</key>
 			<string>\b(?:(import|from|as))\b</string>
 			<key>name</key>
 			<string>keyword.control.import.kv</string>
-		</dict>
-		<dict>
-			<key>comment</key>
-			<string>keyword operators that evaluate to True or False</string>
-			<key>match</key>
-			<string>\b(and|in|is|not|or)\b</string>
-			<key>name</key>
-			<string>keyword.operator.logical.kv</string>
-		</dict>
-		<dict>
-			<key>comment</key>
-			<string>keywords that delimit flow blocks or alter flow from within a block</string>
-			<key>match</key>
-			<string>\b(elif|else|except|finally|for|if|try|while|with|break|continue|pass|raise|return|yield)\b</string>
-			<key>name</key>
-			<string>keyword.control.flow.kv</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>&lt;\=|&gt;\=|\=\=|&lt;|&gt;|\!\=</string>
-			<key>name</key>
-			<string>keyword.operator.comparison.kv</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>\+\=|-\=|\*\=|/\=|//\=|%\=|&amp;\=|\|\=|\^\=|&gt;&gt;\=|&lt;&lt;\=|\*\*\=</string>
-			<key>name</key>
-			<string>keyword.operator.assignment.augmented.kv</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>\+|\-|\*|\*\*|/|//|%|&lt;&lt;|&gt;&gt;|&amp;|\||\^|~</string>
-			<key>name</key>
-			<string>keyword.operator.arithmetic.kv</string>
 		</dict>
 		<dict>
 			<key>captures</key>
@@ -165,10 +27,6 @@
 			</dict>
 			<key>match</key>
 			<string>\b(&lt;.*&gt;)\b</string>
-		</dict>
-		<dict>
-			<key>include</key>
-			<string>#builtin_types_python</string>
 		</dict>
 		<dict>
 			<key>include</key>
@@ -186,29 +44,26 @@
 			<key>include</key>
 			<string>#builtin_properties</string>
 		</dict>
+		<dict>
+			<key>include</key>
+			<string>source.python</string>
+		</dict>
 	</array>
 	<key>repository</key>
 	<dict>
 		<key>builtin_attributes</key>
 		<dict>
 			<key>match</key>
-			<string>(?&lt;!\.)\b(on_color|on_focus|on_node_collapse|on_node_expand|on_pause|on_press|on_release|on_resume|on_size|on_text|on_texture_size|on_touch_down|on_touch_up|on_value|on_collapse|on_collapse_alpha|on_pos|on_background_image|on_background_color|on_orientation|on_arrow_image|on_arrow_pos|on_touch_move|on_tex|on_play|on_index|on_slides|on_offset|on_checkbox_active|on_group|on_lexer|on_foreground_color|on_origin|on_radius|on_hsv|on_hsv|on_select|on_entry_added|on_entries_cleared|on_subentry_to_entry|on_remove_subentry|on_submit|on_children|on_anim_delay|on_texture|on_nocache|on_ref_press|on_scroll_complete|on_anim_alpha|on_open|on_dismiss|on_content|on_container|on_source|on_transform|on_pre_enter|on_enter|on_pre_leave|on_leave|on_complete|on_progress|on_current|on_viewport|on_effect_x|on_effect_y|on_effect_cls|on_panel|on_config|on_menu|on_close|on_config_change|on_is_open|on_sizable_from|on_do_default_tab|on_default_tab_text|on_tab_width|on_tab_height|on_tab_pos|on_parent|on_text_validate|on_double_tap|on_triple_tap|on_quad_touch|on_readonly|on_cursor|on_hint_text|on_padding_x|on_padding_y|on_load_func|on_root_options|on_position_change|on_duration_change|on_state|on_volume|on_video|on_alpha|on_annotation|on_position|on_fullscreen|on_key_down|on_key_up|on_opacity)\b</string>
+			<string>(?&lt;!\.)\b(on_active|on_color|on_focus|on_node_collapse|on_node_expand|on_pause|on_press|on_release|on_resume|on_size|on_text|on_texture_size|on_touch_down|on_touch_up|on_value|on_collapse|on_collapse_alpha|on_pos|on_background_image|on_background_color|on_orientation|on_arrow_image|on_arrow_pos|on_touch_move|on_tex|on_play|on_index|on_slides|on_offset|on_checkbox_active|on_group|on_lexer|on_foreground_color|on_origin|on_radius|on_hsv|on_hsv|on_select|on_entry_added|on_entries_cleared|on_subentry_to_entry|on_remove_subentry|on_submit|on_children|on_anim_delay|on_texture|on_nocache|on_ref_press|on_scroll_complete|on_anim_alpha|on_open|on_dismiss|on_content|on_container|on_source|on_transform|on_pre_enter|on_enter|on_pre_leave|on_leave|on_complete|on_progress|on_current|on_viewport|on_effect_x|on_effect_y|on_effect_cls|on_panel|on_config|on_menu|on_close|on_config_change|on_is_open|on_sizable_from|on_do_default_tab|on_default_tab_text|on_tab_width|on_tab_height|on_tab_pos|on_parent|on_text_validate|on_double_tap|on_triple_tap|on_quad_touch|on_readonly|on_cursor|on_hint_text|on_padding_x|on_padding_y|on_load_func|on_root_options|on_position_change|on_duration_change|on_state|on_volume|on_video|on_alpha|on_annotation|on_position|on_fullscreen|on_key_down|on_key_up|on_opacity)\b</string>
 			<key>name</key>
 			<string>entity.name.function.kv</string>
 		</dict>
 		<key>builtin_properties</key>
 		<dict>
 			<key>match</key>
-			<string>(?&lt;!\.)\b(Color|Line|Rectangle|Ellipse|active|anchor_x|anchor_y|app|background_color|background_down|background_normal|bar_color|bold|border|canvas|canvas\.after|canvas\.before|cap|center|center_x|center_y|col_default_width|col_force_default|color|cols|do_rotation|do_scale|do_scroll|do_translation|font_name|font_size|foreground_color|group|halign|height|id|italic|left|max|min|multiline|on_active|opacity|orientation|padding|points|pos|pos_hint|readonly|rgb|rgba|row_default_height|row_force_default|rows|scroll_x|scroll_y|separator_color|separator_height|size|size_hint|size_hint_x|size_hint_y|source|spacing|state|text|text_size|texture|top|valign|value|width)\b</string>
+			<string>(?&lt;!\.)\b(Color|Line|Rectangle|Ellipse|active|anchor_x|anchor_y|app|background_color|background_down|background_normal|bar_color|bold|border|canvas|canvas\.after|canvas\.before|cap|center|center_x|center_y|col_default_width|col_force_default|color|cols|do_rotation|do_scale|do_scroll|do_translation|font_name|font_size|foreground_color|group|halign|height|id|italic|left|max|min|multiline|opacity|orientation|padding|points|pos|pos_hint|readonly|rgb|rgba|row_default_height|row_force_default|rows|scroll_x|scroll_y|separator_color|separator_height|size|size_hint|size_hint_x|size_hint_y|source|spacing|state|text|text_size|texture|top|valign|value|width)\b</string>
 			<key>name</key>
 			<string>keyword.other.kv</string>
-		</dict>
-		<key>builtin_types_python</key>
-		<dict>
-			<key>match</key>
-			<string>(?&lt;!\.)\b(ascii|basestring|bin|bool|buffer|bytearray|bytes|classmethod|complex|dict|file|float|frozenset|hex|int|list|long|object|oct|property|reversed|set|slice|staticmethod|str|super|tuple|type|unicode|xrange)\b</string>
-			<key>name</key>
-			<string>support.type.kv</string>
 		</dict>
 		<key>builtin_types_widgets_layouts</key>
 		<dict>
