@@ -1,6 +1,8 @@
 ###Other###
 kv.sublime-settings
 test.kv
+test.py
+
 *.old
 
 ###Python###
