@@ -79,7 +79,6 @@
 		{"trigger": "canvas.after\tKivy", "contents": "canvas.after:\n\t"},
 		{"trigger": "canvas.before\tKivy", "contents": "canvas.before:\n\t"},
 		{"trigger": "Bezier\tKivy", "contents": "Bezier:\n\t"},
-		{"trigger": "BorderImage\tKivy", "contents": "BorderImage:\n\t"},
 		{"trigger": "ClearColor\tKivy", "contents": "ClearColor:\n\t"},
 		{"trigger": "Color\tKivy", "contents": "Color:\n\t"},
 		{"trigger": "Line\tKivy", "contents": "Line:\n\t"},
