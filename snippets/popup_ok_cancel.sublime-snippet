@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+Popup:
+    id: ${1:popup}
+    title: '$2'
+    BoxLayout:
+        orientation: 'vertical'
+        on_press: $1.dismiss()
+        Label:
+            text: '$3'
+        BoxLayout:
+            size_hint: (1, .1)
+            orientation: 'horizontal'
+            Button:
+                text: '${4:Ok}'
+                on_press: $5
+            Button:
+                text: '${6:Cancel}'
+                on_press: $1.dismiss()
+]]></content>
+	<tabTrigger>popup_ok_cancel</tabTrigger>
+	<scope>source.kv</scope>
+</snippet>
