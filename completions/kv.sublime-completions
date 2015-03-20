@@ -73,6 +73,7 @@
 		{"trigger": "PageLayout\tKivy", "contents": "PageLayout:\n\t"},
 		{"trigger": "RelativeLayout\tKivy", "contents": "RelativeLayout:\n\t"},
 		{"trigger": "ScatterLayout\tKivy", "contents": "ScatterLayout:\n\t"},
+		{"trigger": "ScatterPlaneLayout\tKivy", "contents": "ScatterPlaneLayout:\n\t"},
 		{"trigger": "StackLayout\tKivy", "contents": "StackLayout:\n\t"},
 
 		// Canvas
