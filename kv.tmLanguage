@@ -75,13 +75,25 @@
 		<key>builtin_types_widgets_ui</key>
 		<dict>
 			<key>match</key>
-			<string>(?&lt;!\.)\b(Accordion|BorderImage|Bubble|BubbleButton|Button|Camera|Carousel|CheckBox|CodeInput|ColorPicker|Dropdown|FileChooser|Image|Label|ListView|Modalview|Popup|ProgressBar|Rst|RstDocument|Scatter|Slider|TextInput|Togglebutton|ScrollView|SelectableView|Slider|Spinner|Splitter|StencilView|Switch|TabbedPanel|TextInput|ToggleButton|TreeView|Video|VideoPlayer|VKeyboard)\b</string>
+			<string>(?&lt;!\.)\b(Accordion|BorderImage|Bubble|BubbleButton|Button|Camera|Carousel|CheckBox|CodeInput|ColorPicker|Dropdown|FileChooser|Image|Label|ListView|Modalview|Popup|ProgressBar|Rst|RstDocument|Scatter|Slider|TextInput|Togglebutton|ScrollView|SelectableView|Slider|Spinner|Splitter|StencilView|Switch|TabbedPanel|TextInput|ToggleButton|TreeView|Video|VideoPlayer|VKeyboard|Widget)\b</string>
 			<key>name</key>
 			<string>support.type.kv</string>
 		</dict>
 	</dict>
 	<key>scopeName</key>
 	<string>source.kv</string>
+	<key>settings</key>
+	<dict>
+		<key>shellVariables</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>TM_COMMENT_START</string>
+				<key>value</key>
+				<string># </string>
+			</dict>
+		</array>
+	</dict>
 	<key>uuid</key>
 	<string>d7b6c18f-afd3-4030-8489-b5a3f3b6d4a4</string>
 </dict>

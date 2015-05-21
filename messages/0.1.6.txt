@@ -1,0 +1,5 @@
+Changes in v0.1.6
+================
+
+Added comments support. 
+Added Widget.

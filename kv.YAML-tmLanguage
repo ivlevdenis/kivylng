@@ -14,8 +14,6 @@ patterns:
   captures:
     '1': {name: storage.type.class.kv}
 
-# - include: '#builtin_types_python'
-
 - include: '#builtin_types_widgets_ui'
 - include: '#builtin_types_widgets_layouts'
 
@@ -30,7 +28,7 @@ repository:
   #   match: (?<!\.)\b(ascii|basestring|bin|bool|buffer|bytearray|bytes|classmethod|complex|dict|file|float|frozenset|hex|int|list|long|object|oct|property|reversed|set|slice|staticmethod|str|super|tuple|type|unicode|xrange)\b
   builtin_types_widgets_ui:
     name: support.type.kv
-    match: (?<!\.)\b(Accordion|BorderImage|Bubble|BubbleButton|Button|Camera|Carousel|CheckBox|CodeInput|ColorPicker|Dropdown|FileChooser|Image|Label|ListView|Modalview|Popup|ProgressBar|Rst|RstDocument|Scatter|Slider|TextInput|Togglebutton|ScrollView|SelectableView|Slider|Spinner|Splitter|StencilView|Switch|TabbedPanel|TextInput|ToggleButton|TreeView|Video|VideoPlayer|VKeyboard)\b
+    match: (?<!\.)\b(Accordion|BorderImage|Bubble|BubbleButton|Button|Camera|Carousel|CheckBox|CodeInput|ColorPicker|Dropdown|FileChooser|Image|Label|ListView|Modalview|Popup|ProgressBar|Rst|RstDocument|Scatter|Slider|TextInput|Togglebutton|ScrollView|SelectableView|Slider|Spinner|Splitter|StencilView|Switch|TabbedPanel|TextInput|ToggleButton|TreeView|Video|VideoPlayer|VKeyboard|Widget)\b
   builtin_types_widgets_layouts:
     name: support.type.kv
     match: (?<!\.)\b(AnchorLayout|BoxLayout|FloatLayout|GridLayout|PageLayout|RelativeLayout|ScatterLayout|StackLayout)\b

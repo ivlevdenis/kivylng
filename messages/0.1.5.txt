@@ -1,0 +1,19 @@
+Changes in v0.1.5
+================
+
+Recheck ScreenManager
+Recheck ScatterLayout
+Recheck Scatter
+Recheck ProgressBar
+Recheck PageLayout
+Recheck PageLayout
+Recheck *Image and Label widgets0
+Recheck *Image widget
+Merge snippets
+Add test.py to gitignore
+Added simple OkCancel Popup snippet
+Remove not used python definitions
+Added installation 'splash'
+Added Button, Label, GridLayout snippets
+Recheck GridLayuot class and add missing properties
+Added GestureSurface class and properties
