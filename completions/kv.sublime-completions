@@ -242,7 +242,7 @@
 		{"trigger": "play\tCamera", "contents": "play: ${1:True}"},
 		{"trigger": "points", "contents": "points: (${1:x1}, ${2:y1}, ${3:x2}, ${4:y2}, ${5:x3}, ${6:y3})"},
 		{"trigger": "pos", "contents": "pos: (${1:self.x}, ${2:self.y})"},
-		{"trigger": "pos_hint", "contents": "pos_hint: (${1:None}, ${2:None})"},
+		{"trigger": "pos_hint", "contents": "pos_hint: {'${1:None}': ${2:None}}"},
 		{"trigger": "previous_image", "contents": "previous_image: '$1'"},
 		{"trigger": "progress_cls\tFileChooser", "contents": "progress_cls: '${1:FileChooserProgress}'"},
 		{"trigger": "use_random_color\tGestureSurface", "contents": "use_random_color: ${1:False}"},
