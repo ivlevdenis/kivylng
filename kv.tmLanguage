@@ -61,7 +61,7 @@
         <key>builtin_properties</key>
         <dict>
             <key>match</key>
-            <string>(?&lt;!\.)\b(Color|Line|Rectangle|Ellipse|active|anchor_x|anchor_y|app|background_color|background_down|background_normal|bar_color|bold|border|canvas|canvas\.after|canvas\.before|cap|center|center_x|center_y|col_default_width|col_force_default|color|cols|do_rotation|do_scale|do_scroll|do_translation|font_name|font_size|foreground_color|group|halign|height|id|italic|left|max|min|multiline|opacity|orientation|padding|points|pos|pos_hint|readonly|rgb|rgba|row_default_height|row_force_default|rows|scroll_x|scroll_y|separator_color|separator_height|size|size_hint|size_hint_x|size_hint_y|source|spacing|state|text|text_size|texture|top|valign|value|width)\b</string>
+            <string>(?&lt;!\.)\b(Color|Line|Rectangle|Ellipse|active|anchor_x|anchor_y|app|background_color|background_down|background_normal|bar_color|bold|border|canvas|canvas\.after|canvas\.before|cap|center|center_x|center_y|col_default_width|col_force_default|color|cols|do_rotation|do_scale|do_scroll|do_translation|font_name|font_size|foreground_color|group|halign|height|id|italic|left|max|min|multiline|markup|opacity|orientation|padding|points|pos|pos_hint|readonly|rgb|rgba|row_default_height|row_force_default|rows|scroll_x|scroll_y|separator_color|separator_height|size|size_hint|size_hint_x|size_hint_y|source|spacing|state|text|text_size|texture|top|valign|value|width)\b</string>
             <key>name</key>
             <string>keyword.other.kv</string>
         </dict>
