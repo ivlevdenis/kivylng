@@ -1,8 +1,8 @@
 <snippet>
-	<content><![CDATA[
+    <content><![CDATA[
 Label:
-	text: '$1'
+    text: '$1'
 ]]></content>
-	<tabTrigger>lab_text</tabTrigger>
-	<scope>source.kv</scope>
+    <tabTrigger>lab_text</tabTrigger>
+    <scope>source.kv</scope>
 </snippet>

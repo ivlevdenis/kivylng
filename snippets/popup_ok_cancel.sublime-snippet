@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[
+    <content><![CDATA[
 Popup:
     id: ${1:popup}
     title: '$2'
@@ -18,6 +18,6 @@ Popup:
                 text: '${6:Cancel}'
                 on_press: $1.dismiss()
 ]]></content>
-	<tabTrigger>popup_ok_cancel</tabTrigger>
-	<scope>source.kv</scope>
+    <tabTrigger>popup_ok_cancel</tabTrigger>
+    <scope>source.kv</scope>
 </snippet>

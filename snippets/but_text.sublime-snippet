@@ -1,8 +1,8 @@
 <snippet>
-	<content><![CDATA[
+    <content><![CDATA[
 Button:
-	text: '$1'
+    text: '$1'
 ]]></content>
-	<tabTrigger>but_text</tabTrigger>
-	<scope>source.kv</scope>
+    <tabTrigger>but_text</tabTrigger>
+    <scope>source.kv</scope>
 </snippet>
