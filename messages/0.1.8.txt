@@ -1,5 +1,5 @@
 Changes in v0.1.8
-================
+=================
 
 Fix markup highlight
 Convert idents from TAB to SPACE

@@ -2,20 +2,20 @@
     <content><![CDATA[
 Popup:
     id: ${1:popup}
-    title: '$2'
+    title: "$2"
     BoxLayout:
-        orientation: 'vertical'
+        orientation: "vertical"
         on_press: $1.dismiss()
         Label:
-            text: '$3'
+            text: "$3"
         BoxLayout:
             size_hint: (1, .1)
-            orientation: 'horizontal'
+            orientation: "horizontal"
             Button:
-                text: '${4:Ok}'
+                text: "${4:Ok}"
                 on_press: $5
             Button:
-                text: '${6:Cancel}'
+                text: "${6:Cancel}"
                 on_press: $1.dismiss()
 ]]></content>
     <tabTrigger>popup_ok_cancel</tabTrigger>

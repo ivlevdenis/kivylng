@@ -1,5 +1,5 @@
 Changes in v0.1.7
-================
+=================
 
-Removed automatic add newline
-Convert idents from TAB to SPACE
+Removed automatic add newline.
+Convert idents from TAB to SPACE.

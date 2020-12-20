@@ -1,0 +1,21 @@
+{
+   "scope":"source.kv",
+   "completions":[
+      {
+         "trigger":"app",
+         "contents":"app."
+      },
+      {
+         "trigger":"root",
+         "contents":"root."
+      },
+      {
+         "trigger":"parent",
+         "contents":"parent."
+      },
+      {
+         "trigger":"self",
+         "contents":"self."
+      }
+   ]
+}
