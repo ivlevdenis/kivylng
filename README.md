@@ -9,7 +9,7 @@ Kivy Language syntax definition for Sublime Text.
 ### Build system/Preview
 Open kv file, press `Ctrl + B`. After change and save kv file, preview window automatically update widgets.
 
-### Instalation 
+### Instalation
 
 #### With The Package Control Plugin
 
