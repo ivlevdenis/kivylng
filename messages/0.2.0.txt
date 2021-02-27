@@ -1,0 +1,8 @@
+Changes in v0.2.0
+=================
+
+Added KivyMD (master version) Support.
+Added more completions for Kivy (v2.0.0).
+Distinguished completion files.
+Fixed JSON files (deleted extra commas and other fixes).
+Replaced '' (single quotes) to "" (double quotes).

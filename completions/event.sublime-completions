@@ -1,0 +1,141 @@
+{
+   "scope":"source.kv",
+   "completions":[
+      {
+         "trigger":"on_touch_down\tevent",
+         "contents":"on_touch_down: "
+      },
+      {
+         "trigger":"on_touch_move\tevent",
+         "contents":"on_touch_move: "
+      },
+      {
+         "trigger":"on_kv_post\tevent",
+         "contents":"on_kv_post: "
+      },
+      {
+         "trigger":"on_touch_up\tevent",
+         "contents":"on_touch_up: "
+      },
+      {
+         "trigger":"on_release\tevent",
+         "contents":"on_release: "
+      },
+      {
+         "trigger":"on_press\tevent",
+         "contents":"on_press: "
+      },
+      {
+         "trigger":"on_ref_press\tevent",
+         "contents":"on_ref_press: "
+      },
+      {
+         "trigger":"on_leave\tevent",
+         "contents":"on_leave: "
+      },
+      {
+         "trigger":"on_enter\tevent",
+         "contents":"on_enter: "
+      },
+      {
+         "trigger":"on_pre_enter\tevent",
+         "contents":"on_pre_enter: "
+      },
+      {
+         "trigger":"on_pre_leave\tevent",
+         "contents":"on_pre_leave: "
+      },
+      {
+         "trigger":"on_dismiss\tevent",
+         "contents":"on_dismiss: "
+      },
+      {
+         "trigger":"on_open\tevent",
+         "contents":"on_open: "
+      },
+      {
+         "trigger":"on_pre_dismiss\tevent",
+         "contents":"on_pre_dismiss: "
+      },
+      {
+         "trigger":"on_pre_open\tevent",
+         "contents":"on_pre_open: "
+      },
+      {
+         "trigger":"on_error\tevent",
+         "contents":"on_error: "
+      },
+      {
+         "trigger":"on_load\tevent",
+         "contents":"on_load: "
+      },
+      {
+         "trigger":"on_text_validate\tevent",
+         "contents":"on_text_validate: "
+      },
+      {
+         "trigger":"on_double_tap\tevent",
+         "contents":"on_double_tap: "
+      },
+      {
+         "trigger":"on_triple_tap\tevent",
+         "contents":"on_triple_tap: "
+      },
+      {
+         "trigger":"on_quad_touch\tevent",
+         "contents":"on_quad_touch: "
+      },
+      {
+         "trigger":"on_scroll_start\tevent",
+         "contents":"on_scroll_start: "
+      },
+      {
+         "trigger":"on_scroll_move\tevent",
+         "contents":"on_scroll_move: "
+      },
+      {
+         "trigger":"on_scroll_stop\tevent",
+         "contents":"on_scroll_stop: "
+      },
+      {
+         "trigger":"on_close\tevent",
+         "contents":"on_close: "
+      },
+      {
+         "trigger":"on_swipe\tevent",
+         "contents":"on_swipe: "
+      },
+      {
+         "trigger":"on_pre_swipe\tevent",
+         "contents":"on_pre_swipe: "
+      },
+      {
+         "trigger":"on_overswipe_right\tevent",
+         "contents":"on_overswipe_right: "
+      },
+      {
+         "trigger":"on_overswipe_left\tevent",
+         "contents":"on_overswipe_left: "
+      },
+      {
+         "trigger":"on_swipe_left\tevent",
+         "contents":"on_swipe_left: "
+      },
+      {
+         "trigger":"on_swipe_right\tevent",
+         "contents":"on_swipe_right: "
+      },
+      {
+         "trigger":"on_tab_switch\tevent",
+         "contents":"on_tab_switch: "
+      },
+      {
+         "trigger":"on_slide_progress\tevent",
+         "contents":"on_slide_progress: "
+      },
+      {
+         "trigger":"on_slide_complete\tevent",
+         "contents":"on_slide_complete: "
+      }
+   ]
+}

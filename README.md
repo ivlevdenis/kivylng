@@ -1,4 +1,6 @@
-##Kivy language syntax definition for Sublime Text
+# Kivy Language
+Kivy Language syntax definition for Sublime Text.
+
 [![GitHub tag](https://img.shields.io/github/tag/ivlevdenis/kivylng.svg?style=flat-square)](https://github.com/ivlevdenis/kivylng/tags)
 [![Status](https://img.shields.io/badge/state-WIP-orange.svg?style=flat-square)]()
 <!--
@@ -7,7 +9,7 @@
 ### Build system/Preview
 Open kv file, press `Ctrl + B`. After change and save kv file, preview window automatically update widgets.
 
-### Instalation 
+### Instalation
 
 #### With The Package Control Plugin
 
@@ -34,3 +36,6 @@ git clone https://github.com/ivlevdenis/kivylng.git "Kivy Language"
 cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
 git clone https://github.com/ivlevdenis/kivylng.git "Kivy Language"
 ```
+
+### TODO
+* Add a toggle in command pallete to switch `KivyMD` and `Kivy` completions and highlightling.
